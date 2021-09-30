@@ -5,171 +5,171 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
-    <title>Burger House</title>
-
+    <title>Franky's</title>
+    <!-- Css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Remix icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
 
 </head>
 
 <body>
-    <header>
-        <nav class="navbar">
-            <div class="logo-container">
-                <img class="logo" src="./images/Vector Smart Object.png" alt="">
-                <h3 class="logo-text">Burger House</h3>
+    <!-- ========================== Header ========================== -->
+    <header class="header " id="home">
+        <div class="container">
+
+            <!-- =============== Navbar =============== -->
+            <nav class="navbar flex">
+                <div class="logo">
+                    <h3>Franky's</h3>
+                </div>
+                <ul class="navlist flex">
+                    <li class="nav-link"><a href="#home">Home</a></li>
+                    <li class="nav-link"><a href="#menu">Menu</a></li>
+                    <li class="nav-link"><a href="#deals">Deals</a></li>
+                    <li class="nav-link"><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="phone-number flex">
+                    <i class="ri-phone-fill"></i>
+                    <p>+92 324 490 2616</p>
+                </div>
+                <div class="hamburger"></div>
+            </nav>
+            <!-- =============== Navbar End =============== -->
+
+
+            <!-- ==========banner start=============== -->
+            <div class="banner  flex">
+                <div class="banner_text">
+                    <h1>Franky's</h1>
+                    <h4>delicioso</h4>
+                    <p>Serving delectable meals prepared with nutritious ingredients prepared in the most hygienic environment.
+                    </p>
+                    <a class="btn banner-btn" href="#">Order Now</a>
+                </div>
+                <div class="banner_img">
+                    <img src="./images/banner-img.png" alt="">
+                </div>
             </div>
-            <ul class="nav-list">
-                <li><a class="nav-link" href="#">Home</a></li>
-                <li><a class="nav-link" href="#">Menu</a></li>
-                <li><a class="nav-link" href="#">Our story</a></li>
-                <li><a class="nav-link" href="#">contact us</a></li>
-            </ul>
-        </nav>
-        <section class="section">
-            <div class="section-text">
-                <h3><span>Its a good time for the great </span>taste of burgers</h3>
-                <h1>Burger</h1>
-                <h2>Week</h2>
-            </div>
-            <div class="section-imgs">
-                <a href="#"><img class="header-img" src="./images/Group 1.png" alt="Burger,fries and cold drink png"></a>
-            </div>
-        </section>
+            <!-- ==========banner end=============== -->
+        </div>
     </header>
+    <!-- ====================== Header Ended ============================ -->
 
-    <!-- ==================== Section Start ======================-->
-    <section class="img-section">
-        <div class="section-img-container">
-            <div class="img-container">
-                <img class="section-img first" src="./images/Burger Image.png" alt="Burger-image">
-                <div class="text-container">
-                    <p>try it today</p>
-                    <h3>most popular burger</h3>
-                </div>
-            </div>
-            <div class="column">
-                <div class="img-container ">
-                    <img class="section-img second" src="./images/Image-1.png" alt="Burger-image">
-                    <div class="text-container">
-                        <p>try it today</p>
-                        <h3>more fun more taste</h3>
-                    </div>
-                </div>
-                <div class="img-container">
-                    <img class="section-img third" src="./images/footer-img.png" alt="Burger-image">
-                    <div class="text-container">
-                        <p>try it today</p>
-                        <h3>fresh and chill</h3>
+    <!-- ================================ ShowCase Section =========================== -->
+    <section class="section showcase container">
+        <div class=" grid">
+            <div class="showcase-left-side">
+                <div class="image-container">
+                    <img src="./images/Showcase-left.png" alt="triple decker burger">
+                    <div class="showcase-text">
+                        <h3>Try it today</h3>
+                        <p>Most popular burger</p>
                     </div>
                 </div>
             </div>
-        </div>
-        <p class="bottom-text">always tasty burger</p>
-    </section>
-    <!-- ==================== Section End ========================-->
-
-
-
-    <section class="offers">
-        <div class="offers-text">
-            <h1>choose & enjoy</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
-            </p>
-        </div>
-        <div class="offers-img-container">
-            <div>
-                <img src="./images/Group 3.png" alt="">
-                <h3>lorem impsum dolor</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
-                <button class="btn">order now</button>
-            </div>
-            <div>
-                <img src="./images/Group 2.png" alt="">
-                <h3>lorem impsum dolor</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
-                <button class="btn">order now</button>
-            </div>
-            <div>
-                <img src="./images/Group 3.png" alt="">
-                <h3>lorem impsum dolor</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
-                <button class="btn">order now</button>
-            </div>
-        </div>
-    </section>
-
-
-    <section class="card">
-        <div>
-            <h3>discover</h3>
-            <h1>upcoming events</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
-            </p>
-        </div>
-        <img src="./images/Layer 1.png" alt="card-img">
-    </section>
-    <section class="contact-form">
-        <div class="form-img">
-
-            <img src="./images/form-Burger.png" alt="">
-        </div>
-
-        <div class="form-img">
-
-            <img src="./images/form-Image.png" alt="">
-        </div>
-        <h3>Reservation</h3>
-        <h1>Book your table</h1>
-        <form action="get" class="form">
-            <div class="col">
-                <input type="text" class="form-control" placeholder="Name">
-                <input type="text" class="form-control" placeholder="Date">
-                <input type="text" class="form-control" placeholder="People">
-            </div>
-            <div class="col">
-                <input type="text" class="form-control" placeholder="Email">
-                <input type="text" class="form-control" placeholder="Time">
-                <button class="btn form-control">find a table</button>
-            </div>
-        </form>
-    </section>
-
-
-
-
-    <footer>
-        <div class="left">
-            <div class="first-text">
-                <div class="footer-logo">
-                    <img src="./images/Vector Smart Object.png" alt="logo">
-                    <h3>Burger house</h3>
+            <div class="showecase-right-side flex">
+                <div class="image-container">
+                    <img src="./images/showcase-right-up.png" alt="Beef burger">
+                    <div class="showcase-text">
+                        <h3>Try it today</h3>
+                        <p>More fun more taste</p>
+                    </div>
                 </div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viver ra maecenas accumsan lacus vel facilisis.
-                </p>
-            </div>
-            <div class="second-text">
-                <p>© Company Name 2020. All rights reserved.</p>
-            </div>
-        </div>
-        <div class="right">
-            <div class="first-text">
-                <p>Main Road, Building Name, Country</p>
-                <p>info@companyname.com</p>
-            </div>
-            <div class="second-text">
-                <a href="#"><i class="fab fa-facebook-f icon"></i></a>
-                <a href="#"><i class="fab fa-instagram icon"></i></a>
-                <a href="#"><i class="fab fa-twitter icon"></i></a>
-
+                <div class="image-container">
+                    <img src="./images/showcase-right-down.png" alt="Cheese burgers">
+                    <div class="showcase-text">
+                        <h3>Try it today</h3>
+                        <p>Fresh and chill</p>
+                    </div>
+                </div>
             </div>
         </div>
+    </section>
+    <!-- ================================ ShowCase Section Ended =========================== -->
+
+    <!-- ================================ Deals Section =========================== -->
+    <section class="section deals" id="deals">
+        <div class="container">
+            <h2 class="section-title">Discover and Deals</h2>
+            <div class="card">
+                <div class="card-text">
+                    <h3 class="card-text-title"></h3>
+                    <p class="card-text-desc"></p>
+                    <h3 class="card-text-prize"></h3>
+                </div>
+                <div class="card-img-container">
+                    <img src="" alt="">
+                </div>
+                <button class="left-arrow arrow"><i class="ri-arrow-left-line"></i></button>
+                <button class="right-arrow arrow"><i class="ri-arrow-right-line"></i></button>
+            </div>
+        </div>
+    </section>
+    <!-- ================================ Deals Section Ended=========================== -->
+
+    <!-- ================================ Services Section =========================== -->
+    <section class="section services">
+        <div class="container">
+            <h2 class="section-title">Services</h2>
+            <div class="service-cards-container">
+                <div class="service-card">
+                    <div class="service-image-container">
+                        <img src="./images/Qaulity.PNG" alt="Qulity vector">
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate itaque laboriosam tempora omnis a modi commodi impedit soluta tempore provident.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-image-container">
+                        <img src="./images/time.PNG" alt="Qulity vector">
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate itaque laboriosam tempora omnis a modi commodi impedit soluta tempore provident.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-image-container">
+                        <img src="./images/chef.PNG" alt="Qulity vector">
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate itaque laboriosam tempora omnis a modi commodi impedit soluta tempore provident.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-image-container">
+                        <img src="./images/taste.PNG" alt="Qulity vector">
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate itaque laboriosam tempora omnis a modi commodi impedit soluta tempore provident.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section contact flex" id="contact">
+        <div class="container flex">
+            <div class="social-icons flex">
+                <a href="#" class="instagram"><i class="ri-instagram-fill"></i></a>
+                <a href="#" class="facebook"><i class="ri-facebook-fill"></i></a>
+                <div class="phone-number"><i class="ri-phone-fill"></i>+92 324 490 2616</div>
+            </div>
+            <div class="branding">
+                <h1>Franky's</h1>
+                <h3>delicioso</h3>
+            </div>
+            <div class="addressing flex">
+                <p class="name">Franky's fast food</p>
+                <span></span>
+                <p class="address">Canal Bankk Housing Scheme, Lahore Pakistan</p>
+                <span></span>
+                <p class="phone">+92 324 490 2616</p>
+            </div>
+            <div class="copyright">Copyright © 2021 Franky’s. All rights reserved.</div>
+
+        </div>
+        <a href="#" class="btn map-btn">
+            <p>Find us on Map</p>
+            <i class="ri-map-pin-fill"></i>
+        </a>
+    </section>
+    <script src="script/script.js" type="module"></script>
 
 
-
-    </footer>
-    <!-- Fonst awesome -->
-    <script src="https://kit.fontawesome.com/e0b9e7938f.js" crossorigin="anonymous"></script>
-    <script src="./script.js"></script>
 </body>
 
 </html>
